@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MyBees/static/css/main.7cce0305.css",
+    "main.js": "/MyBees/static/js/main.06d394ca.js",
+    "static/js/453.076d0c45.chunk.js": "/MyBees/static/js/453.076d0c45.chunk.js",
+    "index.html": "/MyBees/index.html",
+    "main.7cce0305.css.map": "/MyBees/static/css/main.7cce0305.css.map",
+    "main.06d394ca.js.map": "/MyBees/static/js/main.06d394ca.js.map",
+    "453.076d0c45.chunk.js.map": "/MyBees/static/js/453.076d0c45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cce0305.css",
+    "static/js/main.06d394ca.js"
+  ]
+}
