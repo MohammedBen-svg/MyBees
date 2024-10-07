@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.logo-name {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 39px;
+}
+.logo-name::first-letter {
+    color: orange;
+}
+.search-bar {
+    width: 40%;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 3px solid silver;
+    border-radius: 9px;
+}
+.search-bar input {
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+}
+.search-bar span {
+    font-size: 34px;
+    cursor: pointer;
+}
+.search-bar span:hover {
+    color: orange;
+}
+.search-bar button {
+    position: absolute;
+    right: 0;
+    width: 8%;
+    height: 100%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.user-action {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    height: max-content;
+    gap: 12px;
+}
+.user-action span {
+    font-size: 38px;
+}
+.user-action span:hover {
+    color: orange;
+    cursor: pointer;
+}
+hr {
+    margin-left: 5%;
+    width: 90%;
+    width: 2px solid rgb(133, 133, 133);
+  }
+/* style of list of categorie : */
+.categorie {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    gap: 51px;
+    font-family:monospace;
+    align-items: center;
+}
+.categorie li {
+    list-style-type: none;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: rgb(53, 53, 53);
+    font-size: 17px;
+}
+.categorie li:hover {
+    color: orange;
+    cursor: pointer;
+
+}
